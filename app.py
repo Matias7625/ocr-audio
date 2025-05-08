@@ -9,7 +9,7 @@ import pytesseract
 from PIL import Image
 from gtts import gTTS
 from googletrans import Translator
-
+image = Image.open("201357670-esqueleto-sentado-en-la-mesa-con-la-computadora-y-mirando-a-la-cámara-en-la-oficina.jpg")
 
 text=" "
 
@@ -53,6 +53,7 @@ st.markdown(
 
 
 st.title("Reconocimiento Óptico de Caracteres🔥🔥🔥🔥")
+st.image(image, caption="Este es el esqueleto analista que lo acompañara para leer su imagen")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
 
 cam_ = st.checkbox("Usar Cámara")
