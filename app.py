@@ -63,11 +63,11 @@ else :
    img_file_buffer = None
    
 with st.sidebar:
-    st.markdown(
+     st.markdown(
     """
     <style>
     .stApp {
-        background-color: gold;
+        background-color: yellow;
     }
     </style>
     """,
