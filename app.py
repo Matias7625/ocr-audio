@@ -39,11 +39,20 @@ def remove_files(n):
 
 
 remove_files(7)
-  
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: purple;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
-
-st.title("Reconocimiento Óptico de Caracteres")
+st.title("Reconocimiento Óptico de Caracteres🔥🔥🔥🔥")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
 
 cam_ = st.checkbox("Usar Cámara")
