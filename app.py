@@ -63,16 +63,7 @@ else :
    img_file_buffer = None
    
 with st.sidebar:
-     st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: yellow;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+    
       st.subheader("Procesamiento para Cámara")
       filtro = st.radio("Filtro para imagen con cámara",('Sí', 'No'))
 
